@@ -1,0 +1,63 @@
+
+
+    (function (w, d) {
+        
+
+
+    w.tsUpdateMetaDescription = function () {
+        var existingTitle = document.querySelector('title').innerText;
+        document.querySelector('title').innerText = "***** Rating:  4.8 - 228 Reviews - " + existingTitle;
+
+        var existingDesc = document.querySelector('meta[name="description"]').getAttribute("content");
+        document.querySelector('meta[name="description"]').setAttribute("content", "***** Rating:  4.8 - 228 Reviews - " + existingDesc);
+    };
+
+
+        
+
+    var timestamp = document.createElement("meta");
+    timestamp.setAttribute("name", "ts-timestamp");
+    timestamp.setAttribute("content", new Date().toLocaleString());
+    document.head.appendChild(timestamp);
+
+
+
+
+    if (d.getElementById("ts-json") === null) {
+                
+        var filter = Array.prototype.filter;
+        var productName = "Josh McPherson Solicitors";
+        var title = document.querySelector("title");
+
+        if (title === null || title.innerText.match(/^ *$/) !== null) {
+            title = filter.call(d.querySelectorAll('h1'), function (node) {
+                return node.innerText != "";
+            })[0];
+        }
+
+        if (typeof title !== "undefined") {
+            productName = title.innerText;
+        }
+                
+
+        var json = "[{\"@type\":\"Product\",\"@id\":\"{{url}}#trustist\",\"description\":null,\"logo\":\"https://content.trustist.com/brandlogos/6f4e589a-8f33-4ee3-9dea-199083c73314.png\",\"image\":[\"https://content.trustist.com/brandlogos/6f4e589a-8f33-4ee3-9dea-199083c73314.png\"],\"name\":\"{{productName}}\",\"alternateName\":null,\"hasMap\":null,\"geo\":null,\"telephone\":null,\"url\":\"{{url}}\",\"address\":null,\"branchOf\":null,\"openingHoursSpecification\":null,\"sameAs\":[\"https://www.trustist.com/local-reviews/Website-Review-brookman-solicitors-reviews-3094.html\"],\"@context\":\"http://schema.org\",\"brand\":{\"@type\":\"Organization\",\"@id\":null,\"description\":null,\"logo\":\"https://content.trustist.com/brandlogos/6f4e589a-8f33-4ee3-9dea-199083c73314.png\",\"image\":[\"https://content.trustist.com/brandlogos/6f4e589a-8f33-4ee3-9dea-199083c73314.png\"],\"name\":\"Josh McPherson Solicitors\",\"alternateName\":null,\"hasMap\":null,\"geo\":null,\"telephone\":null,\"url\":\"https://www.brookman.co.uk/\",\"address\":null,\"branchOf\":null,\"openingHoursSpecification\":null,\"sameAs\":null},\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":4.8,\"bestRating\":5,\"worstRating\":1,\"reviewCount\":228},\"review\":null,\"mpn\":\"{{url}}\",\"sku\":\"{{url}}\"}]";
+
+        var a = d;
+        var c = a.createElement("script");
+        c.type = 'application/ld+json';
+        c.id = 'ts-json';
+        c.innerText = json
+            .replace(new RegExp("{{url}}", 'g'), w.location.href)
+            .replace("\"{{productName}}\"", JSON.stringify(productName).replace(/[^ -~]+/g, ""));
+        a = a.getElementsByTagName("head")[0];
+        a.appendChild(c);
+    }
+
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.defer = true;
+        s.src = 'https://widget.trustist.com/mlhObzOP406d6hmQg8czFA/ratingsummary.js';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+
+    })(window, document);

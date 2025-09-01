@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # The base folder of your project
+    RewriteBase /brook/
+
+    # If the file or directory exists, serve it directly
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Otherwise, send to index.php
+    RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
