@@ -90,7 +90,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 <link rel='stylesheet' id='ge_styles-css' href='wp-content/themes/brookman/css/styles8a82.css?ver=2021112302' type='text/css' media='all' />
 <script>var jquery_placeholder_url = 'wp-content/plugins/gravity-forms-placeholders/jquery.placeholder-1.0.1.js';</script><script type="text/javascript" src="wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
 <script type="text/javascript" src="wp-content/plugins/gravity-forms-placeholders/gf.placeholders5152.js?ver=1.0" id="_gf_placeholders-js"></script>
-<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" title="JSON" type="application/json" href="wp-json/wp/v2/pages/2.json" /><link rel='shortlink' href='index.html' />
+<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" title="JSON" type="application/json" href="wp-json/wp/v2/pages/2.json" /><link rel='shortlink' href='<?php echo base_url('/') ?>' />
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="wp-json/oembed/1.0/embed661f.json?url=https%3A%2F%2Fwww.brookman.co.uk%2F" />
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="wp-json/oembed/1.0/embed12a8?url=https%3A%2F%2Fwww.brookman.co.uk%2F&amp;format=xml" />
 <link rel="icon" href="wp-content/uploads/2021/01/cropped-favicon3-32x32.png" sizes="32x32" />
@@ -203,7 +203,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					
 							<div id="site-header-menu" class="site-header-menu">
 								<nav id="site-navigation" class="main-navigation" aria-label="Primary Menu">
-									<div class="menu-main-menu-container"><ul id="menu-main-menu" class="primary-menu"><li id="menu-item-7" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-7"><a href="index.html" aria-current="page">Home</a></li>
+									<div class="menu-main-menu-container"><ul id="menu-main-menu" class="primary-menu"><li id="menu-item-7" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-7"><a href="<?php echo base_url('/') ?>" aria-current="page">Home</a></li>
 <li id="menu-item-649" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-649"><a href="family-solicitors.html">Services</a>
 <ul class="sub-menu">
 	<li id="menu-item-910" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-910"><a href="family-solicitors/divorce.html">Divorce &#038; No-Fault Divorce</a>
