@@ -1269,7 +1269,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 data-src="https://www.brookman.co.uk/wp-content/uploads/2024/10/Legal-500-2025.jpg"
               ></div>
             </div>
-            <a href="about-us/lexcel-accreditation.html" class="item">
+            <a href="<?= base_url ('lexcel-accreditation'); ?>" class="item">
               <div
                 class="inner"
                 data-src="https://www.brookman.co.uk/wp-content/uploads/2020/09/lexcel-colour-768x414.jpg"
@@ -1300,7 +1300,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 id="menu-item-4761"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4761"
               >
-                <a href="family-solicitors/divorce.html"
+                <a href="<?= base_url('family-solicitors'); ?>"
                   >Divorce &#038; No-Fault Divorce</a
                 >
               </li>
@@ -1308,7 +1308,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 id="menu-item-4764"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4764"
               >
-                <a href="family-solicitors/financial-settlements.html"
+                <a href="<?= base_url('financial-settlements'); ?>"
                   >Financial Settlements</a
                 >
               </li>
@@ -1316,7 +1316,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 id="menu-item-4763"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4763"
               >
-                <a href="family-solicitors/childrens-issues.html"
+                <a href="<?= base_url ('childrens-issues'); ?>"
                   >Children’s Issues</a
                 >
               </li>
@@ -1324,7 +1324,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 id="menu-item-4762"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4762"
               >
-                <a href="family-solicitors/international-divorce.html"
+                <a href="<?= base_url('international-divorce'); ?>"
                   >International Divorce</a
                 >
               </li>
@@ -1332,7 +1332,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 id="menu-item-4765"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4765"
               >
-                <a href="family-solicitors/prenuptial-agreements.html"
+                <a href="<?= base_url('prenuptial-agreements'); ?>"
                   >Pre-nuptial Agreements</a
                 >
               </li>
@@ -1347,25 +1347,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 id="menu-item-5080"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5080"
               >
-                <a href="about-us.html">About Us</a>
+                <a href="<?= base_url('about'); ?>">About Us</a>
               </li>
               <li
                 id="menu-item-4768"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4768"
               >
-                <a href="team.html">The Team</a>
+                <a href="<?= base_url('team'); ?>">The Team</a>
               </li>
               <li
                 id="menu-item-4769"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4769"
               >
-                <a href="about-us/henry-brookman.html">Henry JoshProfile</a>
+                <a href="<?= base_url('henry-brookman'); ?>">Henry JoshProfile</a>
               </li>
               <li
                 id="menu-item-4772"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4772"
               >
-                <a href="about-us/accreditations-associations.html"
+                <a href="<?= base_url('accreditations-associations'); ?>"
                   >Accreditations &#038; Associations</a
                 >
               </li>
@@ -1373,13 +1373,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 id="menu-item-4773"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4773"
               >
-                <a href="about-us/lexcel-accreditation.html">Lexcel</a>
+                <a href="<?= base_url('lexcel-accreditation'); ?>">Lexcel</a>
               </li>
               <li
                 id="menu-item-4775"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4775"
               >
-                <a href="our-fees.html">Fees</a>
+                <a href="<?= base_url('our-fees'); ?>">Fees</a>
               </li>
             </ul>
           </div>
@@ -1392,13 +1392,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 id="menu-item-4779"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4779"
               >
-                <a href="legal-advice/where-to-start.html">Where to Start</a>
+                <a href="<?= base_url('where-to-start'); ?>">Where to Start</a>
               </li>
               <li
                 id="menu-item-4780"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4780"
               >
-                <a href="pay-for-my-divorce.html"
+                <a href="<?= base_url('pay-for-my-divorce')?>"
                   >How Do I Pay For My Divorce?</a
                 >
               </li>
@@ -1406,7 +1406,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 id="menu-item-4781"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4781"
               >
-                <a href="about-us/website-visitor-guarantees.html"
+                <a href="<?= base_url('website-visitor-guarantees') ?>"
                   >Website Visitor Guarantees</a
                 >
               </li>
@@ -1414,7 +1414,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 id="menu-item-5083"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5083"
               >
-                <a href="blog.html">Blog</a>
+                <a href="<?= base_url('blog')?>">Blog</a>
               </li>
               <li
                 id="menu-item-5386"
@@ -1431,7 +1431,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             ></script>
             <div
               ts-widget="starbar10"
-              ts-reviews-url="https://www.brookman.co.uk/about-us/reviews-summary"
+              ts-reviews-url="<?= base_url('reviews-summary'); ?>"
             ></div>
           </div>
         </div>
@@ -1458,258 +1458,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             />
           </p>
         </div>
-      </div>
-      <div class="footer-offices" style="display: none">
-        <hr />
-        <h3 class="small-cap-heading">Our Offices</h3>
-        <div class="row row-flex row-padded">
-          <div class="col-xxs-12 col-xs-6 col-sm-4 col-md-3 col-lg-20">
-            <h4>
-              <a href="contact-us.html" target=""> London</a>
-              &nbsp;<svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="22"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-                style="vertical-align: top"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </h4>
-            <p>
-              Fetter Yard <br />
-              Barnards Inn<br />
-              86 Fetter Lane<br />
-              London<br />
-              EC4A 1EN
-            </p>
-            <p><a href="tel:02074308470">020&nbsp;7430&nbsp;8470</a></p>
-          </div>
-          <div class="col-xxs-12 col-xs-6 col-sm-4 col-md-3 col-lg-20">
-            <h4>
-              <a href="divorce-solicitors-richmond.html" target=""> Richmond</a>
-              &nbsp;<svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="22"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-                style="vertical-align: top"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </h4>
-            <p>
-              Parkshot House*<br />
-              5 Kew Road<br />
-              London, TW9 2PR
-            </p>
-            <p><a href="tel:02074308470">020&nbsp;7430&nbsp;8470</a></p>
-          </div>
-          <div class="col-xxs-12 col-xs-6 col-sm-4 col-md-3 col-lg-20">
-            <h4>
-              <a
-                href="divorce-solicitors-family-lawyers-horsham.html"
-                target=""
-              >
-                Horsham</a
-              >
-              &nbsp;<svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="22"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-                style="vertical-align: top"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </h4>
-            <p>
-              3rd Floor<br />
-              Afon Building<br />
-              Worthing Road<br />
-              Horsham<br />
-              West Sussex<br />
-              RH12 1TL
-            </p>
-            <p><a href="tel:01403282732">01403&nbsp;282&nbsp;732</a></p>
-          </div>
-          <div class="col-xxs-12 col-xs-6 col-sm-4 col-md-3 col-lg-20">
-            <h4>
-              <a
-                href="divorce-solicitors-family-lawyers-crawley.html"
-                target=""
-              >
-                Crawley & Gatwick</a
-              >
-              &nbsp;<svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="22"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-                style="vertical-align: top"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </h4>
-            <p>
-              Griffin House<br />
-              135 High Street<br />
-              Crawley<br />
-              RH10 1DQ
-            </p>
-            <p><a href="tel:02074308470">020&nbsp;7430&nbsp;8470</a></p>
-          </div>
-          <div class="col-xxs-12 col-xs-6 col-sm-4 col-md-3 col-lg-20">
-            <h4>
-              <a
-                href="divorce-solicitors-family-lawyers-in-brighton.html"
-                target=""
-              >
-                Brighton</a
-              >
-              &nbsp;<svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="22"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-                style="vertical-align: top"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </h4>
-            <p>
-              The Portland Building<br />
-              27-28 Church Street<br />
-              Brighton<br />
-              BN1 1RB
-            </p>
-            <p><a href="tel:01273329833">01273&nbsp;329833</a></p>
-          </div>
-          <div class="col-xxs-12 col-xs-6 col-sm-4 col-md-3 col-lg-20">
-            <h4>
-              <a
-                href="divorce-solicitors-family-lawyers-guildford.html"
-                target=""
-              >
-                Guildford</a
-              >
-              &nbsp;<svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="22"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-                style="vertical-align: top"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </h4>
-            <p>
-              Wonersh House<br />
-              The Guildway<br />
-              Old Portsmouth Road<br />
-              Guildford, Surrey<br />
-              GU3 1LR<br />
-            </p>
-            <p><a href="tel:01483467403">01483&nbsp;467&nbsp;403</a></p>
-          </div>
-          <div class="col-xxs-12 col-xs-6 col-sm-4 col-md-3 col-lg-20">
-            <h4>
-              <a
-                href="divorce-lawyers-and-family-solicitors-maidstone.html"
-                target=""
-              >
-                Maidstone</a
-              >
-              &nbsp;<svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="22"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-                style="vertical-align: top"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </h4>
-            <p>
-              Maidstone Innovation Centre*<br />
-              Gidds Pond Way<br />
-              Kent Medical Campus<br />
-              Maidstone, Kent<br />
-              ME14 5FY
-            </p>
-            <p><a href="tel:01622410355">01622&nbsp;410&nbsp;355</a></p>
-          </div>
-          <div class="col-xxs-12 col-xs-6 col-sm-4 col-md-3 col-lg-20">
-            <h4>
-              <a
-                href="divorce-lawyers-family-solicitors-portsmouth.html"
-                target=""
-              >
-                Portsmouth</a
-              >
-              &nbsp;<svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="22"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-                style="vertical-align: top"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </h4>
-            <p>
-              Gatcombe House*<br />
-              Copnor Road<br />
-              Hilsea<br />
-              Portsmouth<br />
-              Hampshire<br />
-              PO3 53J
-            </p>
-            <p><a href="tel:02392988705">023&nbsp;9298&nbsp;8705</a></p>
-          </div>
-        </div>
-        *For pre-arranged appointments only
-      </div>
+      </div>      
       <script>
         (function ($) {
           $(".footer-offices-toggle").click(function () {
@@ -1728,13 +1477,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
                   id="menu-item-5995"
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5995"
                 >
-                  <a href="terms-of-website-use.html">Terms of Website Use</a>
+                  <a href="<?= base_url('terms-of-website-use'); ?>">Terms of Website Use</a>
                 </li>
                 <li
                   id="menu-item-4745"
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4745"
                 >
-                  <a href="regulatory-information.html"
+                  <a href="<?= base_url('regulatory-information'); ?>"
                     >Regulatory Information</a
                   >
                 </li>
@@ -1742,25 +1491,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
                   id="menu-item-5928"
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5928"
                 >
-                  <a href="disclaimer2.html">Disclaimer</a>
+                  <a href="<?= base_url('disclaimer2'); ?>">Disclaimer</a>
                 </li>
                 <li
                   id="menu-item-5927"
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5927"
                 >
-                  <a href="accessibility.html">Accessibility</a>
+                  <a href="<?= base_url('accessibility'); ?>">Accessibility</a>
                 </li>
                 <li
                   id="menu-item-5994"
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5994"
                 >
-                  <a href="privacy-notices.html">Privacy Notices</a>
+                  <a href="<?= base_url('privacy-notices'); ?>">Privacy Notices</a>
                 </li>
                 <li
                   id="menu-item-5924"
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5924"
                 >
-                  <a href="cookies-policy.html">Cookies</a>
+                  <a href="<?= base_url('cookies-policy'); ?>">Cookies</a>
                 </li>
               </ul>
             </div>

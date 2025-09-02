@@ -199,7 +199,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			name="description"
 			content="Joshare specialist divorce lawyers, family law solicitors &amp; international divorce lawyers, advising clients across the UK and overseas."
 		/>
-		<link rel="canonical" href="index.html" />
+		<link rel="canonical" href="<?= base_url('/') ?>" />
 		<script type="application/ld+json" class="yoast-schema-graph">
 			{
 				"@context": "https://schema.org",
@@ -1024,13 +1024,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 													id="menu-item-649"
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-649"
 												>
-													<a href="family-solicitors.html">Services</a>
+													<a href="<?= base_url('family-solicitors'); ?>">Services</a>
 													<ul class="sub-menu">
 														<li
 															id="menu-item-910"
 															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-910"
 														>
-															<a href="family-solicitors/divorce.html"
+															<a href="<?= base_url('family-solicitors'); ?>"
 																>Divorce &#038; No-Fault Divorce</a
 															>
 															<ul class="sub-menu">
@@ -1038,7 +1038,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	id="menu-item-6435"
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6435"
 																>
-																	<a href="family-solicitors/divorce.html"
+																	<a href="<?= base_url('family-solicitors'); ?>"
 																		>Divorce</a
 																	>
 																</li>
@@ -1047,7 +1047,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1569"
 																>
 																	<a
-																		href="family-solicitors/divorce/divorce-rights.html"
+																		href="<?= base_url('divorce-rights'); ?>"
 																		>Divorce Rights</a
 																	>
 																</li>
@@ -1056,7 +1056,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1501"
 																>
 																	<a
-																		href="family-solicitors/divorce/adultery-and-divorce.html"
+																		href="<?= base_url('adultery-and-divorce'); ?>"
 																		>Adultery &#038; Divorce</a
 																	>
 																</li>
@@ -1065,7 +1065,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1505"
 																>
 																	<a
-																		href="family-solicitors/divorce/contested-divorce.html"
+																		href="<?= base_url('contested-divorce');?>"
 																		>Contested Divorce</a
 																	>
 																</li>
@@ -1074,7 +1074,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1566"
 																>
 																	<a
-																		href="family-solicitors/divorce/amicable-divorce.html"
+																		href="<?= base_url('amicable-divorce');?>"
 																		>Amicable Divorce</a
 																	>
 																</li>
@@ -1083,7 +1083,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1570"
 																>
 																	<a
-																		href="family-solicitors/divorce/annulment.html"
+																		href="<?= base_url('annulment');?>"
 																		>Annulment</a
 																	>
 																</li>
@@ -1092,7 +1092,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1511"
 																>
 																	<a
-																		href="family-solicitors/divorce/separation.html"
+																		href="<?= base_url('separation');?>"
 																		>Separation</a
 																	>
 																</li>
@@ -1101,7 +1101,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1571"
 																>
 																	<a
-																		href="family-solicitors/divorce/divorce-paperwork.html"
+																		href="<?= base_url('divorce-paperwork');?>"
 																		>Divorce Paperwork</a
 																	>
 																</li>
@@ -1112,7 +1112,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-914"
 														>
 															<a
-																href="family-solicitors/international-divorce.html"
+																href="<?= base_url('international-divorce'); ?>"
 																>International Divorce</a
 															>
 															<ul class="sub-menu">
@@ -1121,7 +1121,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1563"
 																>
 																	<a
-																		href="family-solicitors/international-divorce/european-union-law.html"
+																		href="<?= base_url('european-union-law'); ?>"
 																		>Europe &#038; European Union</a
 																	>
 																</li>
@@ -1130,7 +1130,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559"
 																>
 																	<a
-																		href="family-solicitors/international-divorce/australia-and-new-zealand-law.html"
+																		href="<?= base_url('australia-and-new-zealand-law'); ?>"
 																		>Australia &#038; New Zealand</a
 																	>
 																</li>
@@ -1139,7 +1139,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1564"
 																>
 																	<a
-																		href="family-solicitors/international-divorce/india-and-pakistan-law.html"
+																		href="<?= base_url('india-and-pakistan-law'); ?>"
 																		>India &#038; Pakistan</a
 																	>
 																</li>
@@ -1148,7 +1148,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1560"
 																>
 																	<a
-																		href="family-solicitors/international-divorce/canada-and-usa-law.html"
+																		href="<?= base_url('canada-and-usa-law'); ?>"
 																		>Canada &#038; USA</a
 																	>
 																</li>
@@ -1157,7 +1157,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"
 																>
 																	<a
-																		href="family-solicitors/international-divorce/china-japan-and-south-east-asia-law.html"
+																		href="<?= base_url('china-japan-and-south-east-asia-law'); ?>"
 																		>China, Japan and Asia</a
 																	>
 																</li>
@@ -1166,7 +1166,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1561"
 																>
 																	<a
-																		href="family-solicitors/international-divorce/central-and-south-america-law.html"
+																		href="<?= base_url('central-and-south-america-law'); ?>"
 																		>Central and South America</a
 																	>
 																</li>
@@ -1175,7 +1175,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1565"
 																>
 																	<a
-																		href="family-solicitors/international-divorce/middle-east-and-persian-gulf-law.html"
+																		href="<?= base_url('middle-east-and-persian-gulf-law'); ?>"
 																		>Middle East &#038; Persian Gulf</a
 																	>
 																</li>
@@ -1184,7 +1184,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6141"
 																>
 																	<a
-																		href="family-solicitors/international-divorce/south-africa-and-africa-law.html"
+																		href="<?= base_url('south-africa-and-africa-law'); ?>"
 																		>Africa &#038; South Africa</a
 																	>
 																</li>
@@ -1193,7 +1193,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1521"
 																>
 																	<a
-																		href="family-solicitors/international-divorce/international-divorce-map.html"
+																		href="<?= base_url('international-divorce-map'); ?>"
 																		>All Countries</a
 																	>
 																</li>
@@ -1203,7 +1203,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 															id="menu-item-915"
 															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-915"
 														>
-															<a href="family-solicitors/childrens-issues.html"
+															<a href="<?= base_url ('childrens-issues'); ?>"
 																>Children’s Issues</a
 															>
 															<ul class="sub-menu">
@@ -1212,7 +1212,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1523"
 																>
 																	<a
-																		href="family-solicitors/childrens-issues/fathers-and-mothers-rights.html"
+																		href="<?= base_url ('fathers-and-mothers-rights'); ?>"
 																		>Fathers’ &#038; Mothers’ Rights</a
 																	>
 																</li>
@@ -1221,7 +1221,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1522"
 																>
 																	<a
-																		href="family-solicitors/childrens-issues/grandparents-rights.html"
+																		href="<?= base_url ('grandparents-rights'); ?>"
 																		>Grandparents’ Rights</a
 																	>
 																</li>
@@ -1230,7 +1230,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5373"
 																>
 																	<a
-																		href="family-solicitors/childrens-issues/parental-abduction-within-uk.html"
+																		href="<?= base_url ('parental-abduction-within-uk'); ?>"
 																		>Parental Abduction within the UK</a
 																	>
 																</li>
@@ -1239,7 +1239,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1525"
 																>
 																	<a
-																		href="family-solicitors/childrens-issues/international-abduction.html"
+																		href="<?= base_url ('international-abduction'); ?>"
 																		>International Abduction</a
 																	>
 																</li>
@@ -1248,7 +1248,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5372"
 																>
 																	<a
-																		href="family-solicitors/childrens-issues/leave-remove.html"
+																		href="<?= base_url ('leave-remove'); ?>"
 																		>Leave to Remove</a
 																	>
 																</li>
@@ -1257,7 +1257,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4115"
 																>
 																	<a
-																		href="family-solicitors/childrens-issues/surrogacy.html"
+																		href="<?= base_url ('surrogacy'); ?>"
 																		>Surrogacy</a
 																	>
 																</li>
@@ -1268,7 +1268,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-935"
 														>
 															<a
-																href="family-solicitors/financial-settlements.html"
+																href="<?= base_url('financial-settlements'); ?>"
 																>Financial Settlements</a
 															>
 															<ul class="sub-menu">
@@ -1277,7 +1277,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5366"
 																>
 																	<a
-																		href="family-solicitors/financial-settlements/financial-dispute-resolution.html"
+																		href="<?= base_url('financial-dispute-resolution'); ?>"
 																		>Financial Dispute Resolution</a
 																	>
 																</li>
@@ -1286,7 +1286,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1526"
 																>
 																	<a
-																		href="family-solicitors/financial-settlements/spousal-maintenance.html"
+																		href="<?= base_url('spousal-maintenance'); ?>"
 																		>Spousal Maintenance</a
 																	>
 																</li>
@@ -1295,7 +1295,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5367"
 																>
 																	<a
-																		href="family-solicitors/financial-settlements/trusts.html"
+																		href="<?= base_url('trusts'); ?>"
 																		>Trusts</a
 																	>
 																</li>
@@ -1304,7 +1304,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5355"
 																>
 																	<a
-																		href="family-solicitors/financial-settlements/hidden-assets.html"
+																		href="<?= base_url('hidden-assets'); ?>"
 																		>Hidden Assets</a
 																	>
 																</li>
@@ -1313,7 +1313,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5369"
 																>
 																	<a
-																		href="family-solicitors/financial-settlements/salaries-bonuses-assets.html"
+																		href="<?= base_url('salaries-bonuses-assets'); ?>"
 																		>Salaries, Bonuses &#038; Shares</a
 																	>
 																</li>
@@ -1322,7 +1322,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1532"
 																>
 																	<a
-																		href="family-solicitors/financial-settlements/international-wealth-and-estate-planning.html"
+																		href="<?= base_url('international-wealth-and-estate-planning'); ?>"
 																		>International Wealth &#038; Estate
 																		Planning</a
 																	>
@@ -1332,7 +1332,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5368"
 																>
 																	<a
-																		href="family-solicitors/financial-settlements/offshore-trusts-divorce.html"
+																		href="<?= base_url('offshore-trusts-divorce'); ?>"
 																		>Offshore Trusts and Divorce</a
 																	>
 																</li>
@@ -1349,7 +1349,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-936"
 																>
 																	<a
-																		href="family-solicitors/prenuptial-agreements.html"
+																		href="<?= base_url('prenuptial-agreements'); ?>"
 																		>Pre-nuptial Agreements</a
 																	>
 																</li>
@@ -1358,7 +1358,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5378"
 																>
 																	<a
-																		href="family-solicitors/financial-settlements/post-nuptial-agreements.html"
+																		href="<?= base_url('post-nuptial-agreements'); ?>"
 																		>Post-nuptial Agreements</a
 																	>
 																</li>
@@ -1366,7 +1366,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	id="menu-item-937"
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-937"
 																>
-																	<a href="family-solicitors/pensions.html"
+																	<a href="<?= base_url('pensions'); ?>"
 																		>Pensions &#038; Divorce</a
 																	>
 																</li>
@@ -1374,7 +1374,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	id="menu-item-938"
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-938"
 																>
-																	<a href="family-solicitors/inheritance.html"
+																	<a href="<?= base_url('inheritance'); ?>"
 																		>Inheritance</a
 																	>
 																</li>
@@ -1382,14 +1382,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 																	id="menu-item-6864"
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6864"
 																>
-																	<a href="london-map.html">London Clients</a>
+																	<a href="<?= base_url('london-map'); ?>">London Clients</a>
 																</li>
 																<li
 																	id="menu-item-939"
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-939"
 																>
 																	<a
-																		href="family-solicitors/international-divorce/urdu-hindi.html"
+																		href="<?= base_url('urdu-hindi'); ?>"
 																		>بروک مین عائلی قانون</a
 																	>
 																</li>
