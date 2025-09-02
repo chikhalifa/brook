@@ -1,5 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+$CI =& get_instance();
+$current = $CI->uri->uri_string(); 
+$controller_class = $CI->router->class;
 ?>
 
 <!DOCTYPE html>
@@ -1012,7 +1015,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 											<ul id="menu-main-menu" class="primary-menu">
 												<li
 													id="menu-item-7"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-7"
+													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home <?= ($current == '') ? 'current-menu-item' : '' ?> page_item page-item-2 current_page_item menu-item-7"
 												>
 													<a
 														href="<?php echo base_url('/') ?>"
@@ -1022,7 +1025,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 												</li>
 												<li
 													id="menu-item-649"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-649"
+													class="menu-item menu-item-type-post_type <?= ($controller_class == 'services') ? 'current-menu-item' : '' ?> menu-item-object-page menu-item-has-children menu-item-649"
 												>
 													<a href="<?= base_url('family-solicitors'); ?>">Services</a>
 													<ul class="sub-menu">
@@ -1399,7 +1402,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 												</li>
 												<li
 													id="menu-item-1499"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1499"
+													class="menu-item menu-item-type-post_type <?= ($current == 'about') ? 'current-menu-item' : '' ?> menu-item-object-page menu-item-1499"
 												>
 													<a href="<?php echo base_url('/about') ?>"
 														>About Us</a
@@ -1407,19 +1410,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 												</li>
 												<li
 													id="menu-item-4643"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4643"
+													class="menu-item menu-item-type-post_type <?= ($current == 'team') ? 'current-menu-item' : '' ?> menu-item-object-page menu-item-4643"
 												>
 													<a href="<?php echo base_url('/team') ?>">Team</a>
 												</li>
 												<li
 													id="menu-item-4571"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4571"
+													class="menu-item menu-item-type-post_type <?= ($current == 'blog') ? 'current-menu-item' : '' ?> menu-item-object-page menu-item-4571"
 												>
 													<a href="<?php echo base_url('/blog') ?>">Blog</a>
 												</li>
 												<li
 													id="menu-item-653"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-653"
+													class="menu-item menu-item-type-post_type <?= ($current == 'contact') ? 'current-menu-item' : '' ?> menu-item-object-page menu-item-653"
 												>
 													<a href="<?php echo base_url('/contact') ?>"
 														>Contact Us</a

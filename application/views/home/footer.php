@@ -1513,13 +1513,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="col-xs-12 col-md-auto col-lg-auto col-website-by">
-            Website by
-            <a href="https://www.executemarketing.co.uk/" target="_blank"
-              >Execute&nbsp;Marketing</a
-            >
-          </div>
+          </div>          
         </div>
       </div>
     </div>
@@ -1536,7 +1530,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
               Brighton, East Sussex, BN1 1RB.
             </p>
             <small>
-              ‘Brookman’ and ‘Josh McPherson Solicitors’ are trading names of
+              ‘Josh McPherson Solicitors’ are trading names of
               DMH Stallard LLP. DMH Stallard LLP is a limited liability
               partnership registered in England and Wales (registered number
               OC338287). Its registered office is at The Portland Building,
