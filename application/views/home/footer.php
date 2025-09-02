@@ -1252,10 +1252,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
               <p>
                 Or call us on
                 <a
-                  href="tel:+442074308470"
+                  href="tel:+447452347338"
                   rel="nofollow"
                   class="link-secondary"
-                  >+44&nbsp;(0)20&nbsp;7430&nbsp;8470</a
+                  >+44&nbsp;(0)74&nbsp;5234&nbsp;7338</a
                 >
               </p>
             </div>
