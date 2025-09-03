@@ -121,6 +121,12 @@ class Services extends CI_Controller {
 		$this->load->view('family-solicitors/unreasonable-behaviour');
 		$this->load->view('layout/footer');
 	}	
+	public function finding_a_solicitor()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/finding-a-solicitor');
+		$this->load->view('layout/footer');
+	}	
 	
 
 	// Other services

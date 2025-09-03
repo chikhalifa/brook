@@ -91,6 +91,7 @@ $route['mediation'] = 'services/mediation';
 $route['guide-to-divorce-steps'] = 'services/guide_to_divorce_steps';
 $route['legal-advice'] = 'services/legal_advice';
 $route['unreasonable-behaviour'] = 'services/unreasonable_behaviour';
+$route['finding-a-solicitor'] = 'services/finding_a_solicitor';
 
 
 // Other services

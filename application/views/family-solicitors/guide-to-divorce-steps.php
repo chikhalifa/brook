@@ -28,7 +28,7 @@ $data = ['section1' => 'divorce', 'section2' => 'guide-to-divorce-steps'];
                         ></span
                       >
                     </div>
-                  </div>
+                  </div> 
                 </div>                
                 <div class="container-inner">
                     <div class="entry-content">
