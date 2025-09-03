@@ -1,10 +1,10 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
-$data = ['section1' => 'divorce', 'section2' => 'divorce-paperwork'];
+$data = ['section1' => 'divorce', 'section2' => 'bankruptcy-and-divorce'];
 ?>
 
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
-    <?php $this->load->view('layout/home-banner', ["header_name" => "Divorce Paperwork"]); ?>
+    <?php $this->load->view('layout/home-banner', ["header_name" => "Bankruptcy &#038; Divorce"]); ?>
     <div class="bg-grey">
       <div class="container">
         <section class="main-content">
@@ -18,7 +18,7 @@ $data = ['section1' => 'divorce', 'section2' => 'divorce-paperwork'];
                     <div class="container-inner" style="padding-left: 0">
                       <span
                         ><span><a href="<?= base_url('/')?>">Home</a></span>
-                        <span
+                       <span
                           ><a href="<?= base_url('family-solicitors'); ?>"
                             >Divorce &#038; Family Law Services</a
                           ></span
@@ -29,7 +29,7 @@ $data = ['section1' => 'divorce', 'section2' => 'divorce-paperwork'];
                           ></span
                         >
                         <span class="breadcrumb_last" aria-current="page"
-                          >Divorce Paperwork</span
+                          >Bankruptcy &#038; Divorce</span
                         ></span
                       >
                     </div>
@@ -38,42 +38,46 @@ $data = ['section1' => 'divorce', 'section2' => 'divorce-paperwork'];
                 <div class="container-inner">
                     <div class="entry-content">
                     <p>
-                        The Court needs certain documents when you apply
-                        for divorce. You have to file an application
-                        stating that your marriage or civil partnership
-                        has broken down irretrievably. You can do this on
-                        your own or you and your spouse or civil partner
-                        can apply jointly. You must also file an official
-                        form of marriage certificate. If the certificate
-                        is not in English (e.g. you were married abroad),
-                        you will need a translation. When a solicitor
-                        files the papers, a Certificate Regarding
-                        Reconciliation advice must be filed.
+                        Financial hardship often leads to <a
+                        href="<?= base_url('family-solicitors'); ?>"
+                        >divorce</a
+                        >, but divorce does not solve the financial
+                        problems.
                     </p>
                     <p>
-                        The Court processes these documents and they are
-                        sent (or “served”) on the other party, who has a
-                        limited time (14 days) to file an Acknowledgement.
-                        Read more about the process involved in
-                        <a
-                        href="<?= base_url('filing-for-divorce')?>"
-                        >applying for divorce</a
-                        >.
+                        In English law the husband and wife are each
+                        responsible for their own debts, and not
+                        responsible for the other’s.  Therefore, one can
+                        become bankrupt without necessarily bringing the
+                        other one down.  Very often however, in the
+                        attempt to stave off increasing hardship, the
+                        husband or wife may have borrowed money themselves
+                        to help their spouse.  It may not be an easy task
+                        to get that money back, if it is possible at all. 
+                        In the worst case, if the spouse has taken full
+                        joint indebtedness, say, in respect of a mortgage,
+                        their property will go as well.  A solicitor
+                        dealing with a divorce and bankruptcy has to look
+                        closely at whether the circumstances of any joint
+                        indebtedness were coerced, or even arose from
+                        forgery.
                     </p>
                     <p>
-                        The process is essentially administrative and does
-                        not require any personal attendances at Court
-                        unless there are special circumstances.
+                        The spouse of a bankrupt has a right of occupation
+                        in their home for a year, but after that, the
+                        trustee in bankruptcy can sell it regardless of
+                        any divorce proceedings.
                     </p>
                     <p>
-                        From our offices in London we are able to serve
-                        clients from the surrounding area including
-                        Godalming, Guildford and Woking. You can
-                        <a href="<?= base_url('contact')?>">contact us</a> at
-                        our central London office.
+                        Sometimes the spouse can establish that he or she
+                        has a share in a property even if they are not on
+                        the title.  That requires a solicitor to carefully
+                        analyse the past financial arrangements to see if
+                        there is such a claim.  Alternatively, the spouse
+                        of the bankrupt may also have the possibility of
+                        negotiating to buy out the bankrupt’s share of the
+                        property.
                     </p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
 
                     <p>
                         <a

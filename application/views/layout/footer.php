@@ -1530,7 +1530,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
               Brighton, East Sussex, BN1 1RB.
             </p>
             <small>
-              ‘Josh McPherson Solicitors’ are trading names of
+              ‘Josh McPherson’ are trading names of
               DMH Stallard LLP. DMH Stallard LLP is a limited liability
               partnership registered in England and Wales (registered number
               OC338287). Its registered office is at The Portland Building,

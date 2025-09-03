@@ -80,6 +80,19 @@ $route['annulment'] = 'services/annulment';
 $route['separation'] = 'services/separation';
 $route['divorce-paperwork'] = 'services/divorce_paperwork';
 
+$route['bankruptcy-and-divorce'] = 'services/bankruptcy_and_divorce';
+$route['civil-partnership'] = 'services/civil_partnership';
+$route['co-habitation'] = 'services/co_habitation';
+$route['domestic-violence'] = 'services/domestic_violence';
+$route['divorce-family-businesses'] = 'services/divorce_family_businesses';
+$route['family-therapy'] = 'services/family_therapy';
+$route['filing-for-divorce'] = 'services/filing_for_divorce';
+$route['mediation'] = 'services/mediation';
+$route['guide-to-divorce-steps'] = 'services/guide_to_divorce_steps';
+$route['legal-advice'] = 'services/legal_advice';
+$route['unreasonable-behaviour'] = 'services/unreasonable_behaviour';
+
+
 // Other services
 $route['prenuptial-agreements'] = 'services/prenuptial_agreements';
 $route['post-nuptial-agreements'] = 'services/post_nuptial_agreements';

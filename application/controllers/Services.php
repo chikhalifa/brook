@@ -55,6 +55,73 @@ class Services extends CI_Controller {
 		$this->load->view('family-solicitors/divorce-paperwork');
 		$this->load->view('layout/footer');
 	}	
+	public function bankruptcy_and_divorce()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/bankruptcy-and-divorce');
+		$this->load->view('layout/footer');
+	}	
+	public function civil_partnership()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/civil-partnership');
+		$this->load->view('layout/footer');
+	}	
+	public function co_habitation()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/co-habitation');
+		$this->load->view('layout/footer');
+	}	
+	public function domestic_violence()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/domestic-violence');
+		$this->load->view('layout/footer');
+	}	
+	public function divorce_family_businesses()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/divorce-family-businesses');
+		$this->load->view('layout/footer');
+	}	
+	public function family_therapy()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/family-therapy');
+		$this->load->view('layout/footer');
+	}	
+	public function filing_for_divorce()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/filing-for-divorce');
+		$this->load->view('layout/footer');
+	}	
+	public function mediation()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/mediation');
+		$this->load->view('layout/footer');
+	}	
+	public function guide_to_divorce_steps()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/guide-to-divorce-steps');
+		$this->load->view('layout/footer');
+	}	
+	public function legal_advice()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/legal-advice');
+		$this->load->view('layout/footer');
+	}	
+	public function unreasonable_behaviour()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/unreasonable-behaviour');
+		$this->load->view('layout/footer');
+	}	
+	
 
 	// Other services
 	public function prenuptial_agreements()
