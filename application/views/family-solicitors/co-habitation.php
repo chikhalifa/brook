@@ -4,7 +4,7 @@ $data = ['section1' => 'divorce', 'section2' => 'co-habitation'];
 
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
-    <?php $this->load->view('layout/home-banner', ["header_name" => "Co-Habitation"]); ?>
+    <?php $this->load->view('layout/home-banner', ["banner_path"=>"./wp-content/uploads/2024/06/Divorce-Solicitors-Lawyers4-1.jpg", "header_name" => "Co-Habitation"]); ?>
     <div class="bg-grey">
       <div class="container">
         <section class="main-content">

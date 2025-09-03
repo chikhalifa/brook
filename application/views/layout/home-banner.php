@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container">
         <section
             class="home-banner"
-            data-src="./wp-content/uploads/2024/06/Divorce-Solicitors-Lawyers4-1.jpg"
+            data-src="<?= $banner_path ?>"           
         >
             <div class="container-inner">
             <div class="row row-flex flex-align-center wide-gutter">
