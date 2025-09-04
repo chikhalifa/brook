@@ -115,13 +115,13 @@
         </li>
         <li
           id="menu-item-4593"
-          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4593"
+          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4593 <?= ($section1 == 'international-divorce') ? 'current-menu-item' : '' ?>"
         >
           <a href="<?= base_url('international-divorce'); ?>">International Divorce</a>
           <ul class="sub-menu">
             <li
               id="menu-item-4634"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4634"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4634 <?= ($section2 == 'european-union-law') ? 'current-menu-item' : '' ?>"
             >
               <a href="<?= base_url('european-union-law')?>"
                 >Europe &#038; European Union</a
@@ -129,7 +129,7 @@
             </li>
             <li
               id="menu-item-4631"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4631"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4631 <?= ($section2 == 'australia-and-new-zealand-law') ? 'current-menu-item' : '' ?>"
             >
               <a href="<?= base_url('australia-and-new-zealand-law')?>"
                 >Australia &#038; New Zealand</a
@@ -137,7 +137,7 @@
             </li>
             <li
               id="menu-item-4632"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4632"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4632 <?= ($section2 == 'india-and-pakistan-law') ? 'current-menu-item' : '' ?>"
             >
               <a href="<?= base_url('india-and-pakistan-law')?>"
                 >India &#038; Pakistan</a
@@ -145,7 +145,7 @@
             </li>
             <li
               id="menu-item-4633"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4633"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4633 <?= ($section2 == 'canada-and-usa-law') ? 'current-menu-item' : '' ?>"
             >
               <a href="<?= base_url('canada-and-usa-law')?>"
                 >Canada &#038; USA</a
@@ -153,7 +153,7 @@
             </li>
             <li
               id="menu-item-4635"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4635"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4635 <?= ($section2 == 'china-japan-and-south-east-asia-law') ? 'current-menu-item' : '' ?>"
             >
               <a
                 href="<?= base_url('china-japan-and-south-east-asia-law')?>"
@@ -162,7 +162,7 @@
             </li>
             <li
               id="menu-item-4636"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4636"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4636 <?= ($section2 == 'central-and-south-america-law') ? 'current-menu-item' : '' ?>"
             >
               <a href="<?= base_url('central-and-south-america-law')?>"
                 >Central and South America</a
@@ -170,7 +170,7 @@
             </li>
             <li
               id="menu-item-4637"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4637"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4637 <?= ($section2 == 'middle-east-and-persian-gulf-law') ? 'current-menu-item' : '' ?>"
             >
               <a
                 href="<?= base_url('middle-east-and-persian-gulf-law')?>"
@@ -179,10 +179,10 @@
             </li>
             <li
               id="menu-item-4638"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4638"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4638 <?= ($section2 == 'south-africa-and-africa-law') ? 'current-menu-item' : '' ?>"
             >
-              <a href="<?= base_url('international-divorce-map')?>"
-                >All Countries</a
+              <a href="<?= base_url('south-africa-and-africa-law')?>"
+                >Africa & South Africa</a
               >
             </li>
           </ul>
@@ -369,7 +369,7 @@
             </li>
           </ul>
         </li>
-        <li
+        <!-- <li
           id="menu-item-4599"
           class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4599"
         >
@@ -436,7 +436,7 @@
               >
             </li>
           </ul>
-        </li>
+        </li> -->
       </ul>
     </div>
 
