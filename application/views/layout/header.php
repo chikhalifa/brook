@@ -3,6 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $CI =& get_instance();
 $current = $CI->uri->uri_string(); 
 $controller_class = $CI->router->class;
+
 ?>
 
 <!DOCTYPE html>
@@ -899,6 +900,34 @@ $controller_class = $CI->router->class;
 		</script>
 		<!-- End Google Tag Manager -->
 	</head>
+	<style>
+		.alert {
+			position: relative;
+			padding: 12px 20px;
+			margin-bottom: 20px;
+			border-radius: 4px;		
+		}
+		.alert-success {
+		background-color: #653465;
+		color: #fff;
+		margin: 0 2em 2em;
+		}
+		.alert-danger {
+		background-color: #f8d7da;
+		color: #721c24;
+		margin: 0 2em 2em;
+		}
+		.close-btn {
+		position: absolute;
+		top: 8px;
+		right: 15px;
+		color: inherit;
+		font-size: 25px;
+		font-weight: bold;
+		cursor: pointer;
+		line-height: 1;
+		}
+	</style>
 
 	<body class="home wp-singular page-template-default page page-id-2 wp-theme-brookman">
 		<!-- Google Tag Manager (noscript) -->
@@ -1438,6 +1467,17 @@ $controller_class = $CI->router->class;
 					</div>
 				</header>
 			</div>
+		</div>	
+		<?php if ($this->session->flashdata('success')): ?>
+		<div class="alert alert-success">
+			<?= $this->session->flashdata('success'); ?>
+			<span class="close-btn" onclick="this.parentElement.style.display='none';">&times;</span>
 		</div>
-	</body>
-</html>
+		<?php endif; ?>
+
+		<?php if ($this->session->flashdata('error')): ?>
+		<div class="alert alert-danger">
+			<?= $this->session->flashdata('error'); ?>
+			<span class="close-btn" onclick="this.parentElement.style.display='none';">&times;</span>
+		</div>
+		<?php endif; ?>

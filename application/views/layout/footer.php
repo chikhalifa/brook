@@ -972,3 +972,5 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </footer>
 
 <?php $this->load->view('layout/scripts'); ?>
+</body>
+</html>
