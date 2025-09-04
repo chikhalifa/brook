@@ -231,11 +231,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div id="gf_11" class="gform_anchor" tabindex="-1"></div>
         <form
           method="post"
-          enctype="multipart/form-data"
-          target="gform_ajax_frame_11"
-          id="gform_11"
-          action=""         
-        >          
+          enctype="multipart/form-data"          
+          method="post"
+          action="<?= base_url ('home/ask_question_form') ?>"
+        >
           <div class="gform-body gform_body">
             <ul
               id="gform_fields_11"
@@ -260,11 +259,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 >
                 <div class="ginput_container ginput_container_text">
                   <input
-                    name="input_11"
-                    id="input_11_11"
+                    name="name"
                     type="text"
                     value=""
-                    class="medium"                    
+                    class="medium"
                   />
                 </div>
               </li>
@@ -281,11 +279,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 >
                 <div class="ginput_container ginput_container_email">
                   <input
-                    name="input_2"
-                    id="input_11_2"
+                    name="email"            
                     type="email"
                     value=""
-                    class="medium"                    
+                    class="medium"
                   />
                 </div>
               </li>
@@ -298,8 +295,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 >
                 <div class="ginput_container ginput_container_phone">
                   <input
-                    name="input_3"
-                    id="input_11_3"
+                    name="phone"            
                     type="tel"
                     value=""
                     class="medium"
@@ -319,11 +315,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 >
                 <div class="ginput_container ginput_container_text">
                   <input
-                    name="input_14"
-                    id="input_11_14"
+                    name="location"            
                     type="text"
                     value=""
-                    class="medium"                    
+                    class="medium"
                   />
                 </div>
               </li>
@@ -334,9 +329,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <h4>More Information</h4>
 
                 <p>
-                  <b>Consider including information such as:</b> the name of
-                  your spouse (if relevant), the country you live in, the
-                  background to your problem.
+                  <b>Consider including information such as:</b> the name of your spouse
+                  (if relevant), the country you live in, the background to your
+                  problem.
                 </p>
               </li>
               <li
@@ -352,24 +347,24 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 >
                 <div class="ginput_container ginput_container_textarea">
                   <textarea
-                    name="input_6"
+                    name="comment"
                     id="input_11_6"
                     class="textarea medium"
-                    placeholder="Your comments and information*"                    
+                    placeholder="Your comments and information*"
                     rows="10"
                     cols="50"
                   ></textarea>
                 </div>
-              </li>              
+              </li>
             </ul>
           </div>
           <div class="gform-footer gform_footer top_label">
             <input
               type="submit"
               id="gform_submit_button_11"
-              class="gform_button button"              
+              class="gform_button button"
               value="Send Now"
-            />            
+            />
           </div>
         </form>
       </div>
