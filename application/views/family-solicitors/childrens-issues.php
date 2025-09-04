@@ -1,5 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
-$data = ['section1' => 'children', 'section2' => 'children'];
+$data = ['section1' => 'childrens-issues', 'section2' => 'childrens-issues'];
 ?>
 
 <div id="content" class="site-content">
