@@ -410,190 +410,175 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <form
           method="post"
           enctype="multipart/form-data"
-          target="gform_ajax_frame_12"
-          id="gform_12"
-          action="https://www.brookman.co.uk/#gf_12"
-          data-formid="12"
-          novalidate
-        >          
-          <div class="gform-body gform_body">
-            <ul
-              id="gform_fields_12"
-              class="gform_fields top_label form_sublabel_below description_below validation_below"
-            >
-              <li
-                id="field_12_13"
-                class="gfield gfield--type-html gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
-              >
-                <h4>Personal Information</h4>
-              </li>
-              <li
-                id="field_12_14"
-                class="gfield gfield--type-text col-xs-12 col-sm-6 infield-label gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
-              >
-                <label class="gfield_label gform-field-label" for="input_12_14"
-                  >Name<span class="gfield_required"
-                    ><span class="gfield_required gfield_required_asterisk"
-                      >*</span
-                    ></span
-                  ></label
-                >
-                <div class="ginput_container ginput_container_text">
-                  <input
-                    name="input_14"
-                    id="input_12_14"
-                    type="text"
-                    value=""
-                    class="medium"                    
-                  />
-                </div>
-              </li>
-              <li
-                id="field_12_2"
-                class="gfield gfield--type-email col-xs-12 col-sm-6 infield-label gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
-              >
-                <label class="gfield_label gform-field-label" for="input_12_2"
-                  >Email Address<span class="gfield_required"
-                    ><span class="gfield_required gfield_required_asterisk"
-                      >*</span
-                    ></span
-                  ></label
-                >
-                <div class="ginput_container ginput_container_email">
-                  <input
-                    name="input_2"
-                    id="input_12_2"
-                    type="email"
-                    value=""
-                    class="medium"                    
-                  />
-                </div>
-              </li>
-              <li
-                id="field_12_3"
-                class="gfield gfield--type-phone col-xs-12 col-sm-6 infield-label field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
-              >
-                <label class="gfield_label gform-field-label" for="input_12_3"
-                  >Phone Number (Optional)</label
-                >
-                <div class="ginput_container ginput_container_phone">
-                  <input
-                    name="input_3"
-                    id="input_12_3"
-                    type="tel"
-                    value=""
-                    class="medium"
-                  />
-                </div>
-              </li>
-              <li
-                id="field_12_15"
-                class="gfield gfield--type-text gfield--width-full col-xs-12 col-sm-6 infield-label gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
-              >
-                <label class="gfield_label gform-field-label" for="input_12_15"
-                  >Your Location (e.g. Town/City)<span class="gfield_required"
-                    ><span class="gfield_required gfield_required_asterisk"
-                      >*</span
-                    ></span
-                  ></label
-                >
-                <div class="ginput_container ginput_container_text">
-                  <input
-                    name="input_15"
-                    id="input_12_15"
-                    type="text"
-                    value=""
-                    class="medium"
-                    aria-required="true"
-                    aria-invalid="false"
-                  />
-                </div>
-              </li>
-              <li
-                id="field_12_9"
-                class="gfield gfield--type-radio gfield--type-choice col-xs-12 col-sm-6 flex-align-center field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"
-              >
-                <label class="gfield_label gform-field-label"
-                  >Preferred appointment location:</label
-                >
-                <div class="ginput_container ginput_container_radio">
-                  <ul class="gfield_radio" id="input_12_9">
-                    <li class="gchoice gchoice_12_9_0">
-                      <input
-                        name="input_9"
-                        type="radio"
-                        value="Video Call"
-                        id="choice_12_9_0"
-                      />
-                      <label
-                        for="choice_12_9_0"
-                        id="label_12_9_0"
-                        class="gform-field-label gform-field-label--type-inline"
-                        >Video Call</label
-                      >
+          method="post"  
+          action="<?= base_url ('home/consultation_form') ?>"  
+        >
+            <div class="gform-body gform_body">
+                <ul id="gform_fields_12" class="gform_fields top_label form_sublabel_below description_below validation_below">
+                    <li
+                        id="field_12_13"
+                        class="gfield gfield--type-html gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
+                    >
+                        <h4>Personal Information</h4>
                     </li>
-                    <li class="gchoice gchoice_12_9_1">
-                      <input
-                        name="input_9"
-                        type="radio"
-                        value="Telephone Call"
-                        id="choice_12_9_1"
-                      />
-                      <label
-                        for="choice_12_9_1"
-                        id="label_12_9_1"
-                        class="gform-field-label gform-field-label--type-inline"
-                        >Telephone Call</label
-                      >
+                    <li
+                        id="field_12_14"
+                        class="gfield gfield--type-text col-xs-12 col-sm-6 infield-label gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
+                    >
+                        <label class="gfield_label gform-field-label" for="input_12_14"
+                        >Name<span class="gfield_required"
+                            ><span class="gfield_required gfield_required_asterisk"
+                            >*</span
+                            ></span
+                        ></label
+                        >
+                        <div class="ginput_container ginput_container_text">
+                        <input
+                            name="name"
+                            type="text"
+                            value=""
+                            class="medium"
+                        />
+                        </div>
                     </li>
-                  </ul>
-                </div>
-              </li>
-              <li
-                id="field_12_12"
-                class="gfield gfield--type-html gfield_html gfield_no_follows_desc field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
-              >
-                <h4>More Information</h4>
-                <p>
-                  <b>Consider including information such as:</b> the name of
-                  your spouse (if relevant), the country you live in, the
-                  background to your problem.
-                </p>
-              </li>
-              <li
-                id="field_12_6"
-                class="gfield gfield--type-textarea col-xs-12 gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"
-              >
-                <label class="gfield_label gform-field-label" for="input_12_6"
-                  >Your Comments<span class="gfield_required"
-                    ><span class="gfield_required gfield_required_asterisk"
-                      >*</span
-                    ></span
-                  ></label
-                >
-                <div class="ginput_container ginput_container_textarea">
-                  <textarea
-                    name="input_6"
-                    id="input_12_6"
-                    class="textarea small"
-                    placeholder="Your comments and information*"                    
-                    rows="10"
-                    cols="50"
-                  ></textarea>
-                </div>
-              </li>                            
-            </ul>
-          </div>
-          <div class="gform-footer gform_footer top_label">
+                    <li
+                        id="field_12_2"
+                        class="gfield gfield--type-email col-xs-12 col-sm-6 infield-label gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
+                    >
+                        <label class="gfield_label gform-field-label" for="input_12_2"
+                        >Email Address<span class="gfield_required"
+                            ><span class="gfield_required gfield_required_asterisk"
+                            >*</span
+                            ></span
+                        ></label
+                        >
+                        <div class="ginput_container ginput_container_email">
+                        <input
+                            name="email"
+                            type="email"
+                            value=""
+                            class="medium"
+                        />
+                        </div>
+                    </li>
+                    <li
+                        id="field_12_3"
+                        class="gfield gfield--type-phone col-xs-12 col-sm-6 infield-label field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
+                    >
+                        <label class="gfield_label gform-field-label" for="input_12_3"
+                        >Phone Number (Optional)</label
+                        >
+                        <div class="ginput_container ginput_container_phone">
+                        <input
+                            name="phone"
+                            type="tel"
+                            value=""
+                            class="medium"
+                        />
+                        </div>
+                    </li>
+                    <li
+                        id="field_12_15"
+                        class="gfield gfield--type-text gfield--width-full col-xs-12 col-sm-6 infield-label gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
+                    >
+                        <label class="gfield_label gform-field-label" for="input_12_15"
+                        >Your Location (e.g. Town/City)<span class="gfield_required"
+                            ><span class="gfield_required gfield_required_asterisk"
+                            >*</span
+                            ></span
+                        ></label
+                        >
+                        <div class="ginput_container ginput_container_text">
+                        <input
+                            name="location"        
+                            type="text"
+                            value=""
+                            class="medium"            
+                        />
+                        </div>
+                    </li>
+                    <li
+                        id="field_12_9"
+                        class="gfield gfield--type-radio gfield--type-choice col-xs-12 col-sm-6 flex-align-center field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"
+                    >
+                        <label class="gfield_label gform-field-label"
+                        >Preferred appointment location:</label
+                        >
+                        <div class="ginput_container ginput_container_radio">
+                        <ul class="gfield_radio" id="input_12_9">
+                            <li class="gchoice gchoice_12_9_0">
+                            <input
+                                name="appointment"
+                                type="radio"
+                                value="Video Call"
+                                id="choice_12_9_0"
+                            />
+                            <label
+                                for="choice_12_9_0"
+                                id="label_12_9_0"
+                                class="gform-field-label gform-field-label--type-inline"
+                                >Video Call</label
+                            >
+                            </li>
+                            <li class="gchoice gchoice_12_9_1">
+                            <input
+                                name="appointment"
+                                type="radio"
+                                value="Telephone Call"
+                                id="choice_12_9_1"
+                            />
+                            <label
+                                for="choice_12_9_1"
+                                id="label_12_9_1"
+                                class="gform-field-label gform-field-label--type-inline"
+                                >Telephone Call</label
+                            >
+                            </li>
+                        </ul>
+                        </div>
+                    </li>
+                    <li
+                        id="field_12_12"
+                        class="gfield gfield--type-html gfield_html gfield_no_follows_desc field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
+                    >
+                        <h4>More Information</h4>
+                        <p>
+                        <b>Consider including information such as:</b> the name of your spouse
+                        (if relevant), the country you live in, the background to your
+                        problem.
+                        </p>
+                    </li>
+                    <li
+                        id="field_12_6"
+                        class="gfield gfield--type-textarea col-xs-12 gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"
+                    >
+                        <label class="gfield_label gform-field-label" for="input_12_6"
+                        >Your Comments<span class="gfield_required"
+                            ><span class="gfield_required gfield_required_asterisk"
+                            >*</span
+                            ></span
+                        ></label
+                        >
+                        <div class="ginput_container ginput_container_textarea">
+                        <textarea
+                            name="comment"
+                            class="textarea small"
+                            placeholder="Your comments and information*"
+                            rows="10"
+                            cols="50"
+                        ></textarea>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="gform-footer gform_footer top_label">
             <input
-              type="submit"
-              id="gform_submit_button_12"
-              class="gform_button button"
-              onclick="gform.submission.handleButtonClick(this);"
-              data-submission-type="submit"
-              value="Send Now"
-            />            
-          </div>
+                type="submit"
+                id="gform_submit_button_12"
+                class="gform_button button"      
+                value="Send Now"
+            />
+            </div>
         </form>
       </div>     
     </div>
@@ -849,7 +834,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="row row-flex row-padded">
           <div class="col-xs-12 col-md col-lg">
             &copy; 2025 DMH Stallard LLP
-            <div class="menu-footer-bottom-menu-container">
+            <!-- <div class="menu-footer-bottom-menu-container">
               <ul id="menu-footer-bottom-menu" class="menu">
                 <li
                   id="menu-item-5995"
@@ -890,7 +875,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                   <a href="<?= base_url('cookies-policy'); ?>">Cookies</a>
                 </li>
               </ul>
-            </div>
+            </div> -->
           </div>          
         </div>
       </div>

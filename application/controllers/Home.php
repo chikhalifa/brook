@@ -181,4 +181,58 @@ class Home extends CI_Controller {
 			redirect($referrer ? $referrer : 'contact');
 		}
 	}
+	public function consultation_form()
+	{
+		$this->load->helper(['form', 'url']);
+		$this->load->library('form_validation');
+		$referrer = $this->input->server('HTTP_REFERER');
+
+		// Validation rules
+		$this->form_validation->set_rules('name', 'Name', 'required|trim');
+		$this->form_validation->set_rules('email', 'Email', 'required|valid_email|trim');
+		$this->form_validation->set_rules('comment', 'Comment', 'required|trim');
+		$this->form_validation->set_rules('location', 'Location', 'required|trim');
+
+		if ($this->form_validation->run() == FALSE) {
+			$this->session->set_flashdata('error', validation_errors());
+			redirect($referrer ? $referrer : 'contact');
+		} else {
+			// Sanitize input
+			$name     = $this->input->post('name', TRUE);
+			$email    = $this->input->post('email', TRUE);
+			$comment  = $this->input->post('comment', TRUE);
+			$phone    = $this->input->post('phone', TRUE);
+			$location = $this->input->post('location', TRUE);
+			$appointment = $this->input->post('appointment', TRUE);
+
+			$data = [
+				'name'     => $name,
+				'email'    => $email,
+				'phone'    => $phone,
+				'location' => $location,
+				'comment'  => nl2br($comment),
+				'appointment'  => $appointment,
+			];
+			
+			$message = $this->load->view('emails/consultation_template', $data, TRUE);
+
+			$this->load->library('email');			
+			$this->email->from('contact@joshmcpherson.co.uk', 'Josh Mcpherson');
+			$this->email->to('jacknelsonxxx@gmail.com');
+			$this->email->subject('Consultation Request');
+			$this->email->message($message);
+
+			if ($this->email->send()) {
+				$this->session->set_flashdata(
+					'success',
+					'<strong>Thank you for contacting us!</strong> One of our solicitors will contact you shortly to discuss how we can assist you.'
+				);
+			} else {
+				$error = $this->email->print_debugger();
+				log_message('error', $error); 
+				$this->session->set_flashdata('error', 'There was a problem sending your message. Please try again later.');
+			}
+			redirect($referrer ? $referrer : 'contact');
+		}
+	}
 }
