@@ -8,7 +8,7 @@
           id="menu-item-4592"
           class="menu-item menu-item-type-post_type menu-item-object-page <?= ($section1 == 'divorce') ? 'current-menu-item' : '' ?> page_item page-item-16 current_page_item menu-item-has-children menu-item-4592"
         >
-          <a href="<?= base_url('family-solicitor'); ?>" aria-current="page"
+          <a href="<?= base_url('family-solicitors'); ?>" aria-current="page"
             >Divorce &#038; No-Fault Divorce</a
           >
           <ul class="sub-menu">
