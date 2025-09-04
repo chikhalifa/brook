@@ -297,6 +297,12 @@ class Services extends CI_Controller {
 		$this->load->view('family-solicitors/spousal-maintenance');
 		$this->load->view('layout/footer');
 	}
+	public function city_professionals_and_spouses()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/city-professionals-and-their-spouses');
+		$this->load->view('layout/footer');
+	}
 	public function trusts()
 	{
 		$this->load->view('layout/header');
@@ -325,6 +331,18 @@ class Services extends CI_Controller {
 	{
 		$this->load->view('layout/header');
 		$this->load->view('family-solicitors/offshore-trusts-divorce');
+		$this->load->view('layout/footer');
+	}
+	public function international_property()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/international-property');
+		$this->load->view('layout/footer');
+	}
+	public function foreign_bank_accounts_assets_abroad()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/foreign-bank-accounts-assets-abroad');
 		$this->load->view('layout/footer');
 	}
 }

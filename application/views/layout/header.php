@@ -1191,7 +1191,7 @@ $controller_class = $CI->router->class;
 																		>Africa &#038; South Africa</a
 																	>
 																</li>
-																<li
+																<!-- <li
 																	id="menu-item-1521"
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1521"
 																>
@@ -1199,7 +1199,7 @@ $controller_class = $CI->router->class;
 																		href="<?= base_url('international-divorce-map'); ?>"
 																		>All Countries</a
 																	>
-																</li>
+																</li> -->
 															</ul>
 														</li>
 														<li

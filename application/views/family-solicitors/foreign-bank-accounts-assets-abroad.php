@@ -1,9 +1,9 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
-$data = ['section1' => 'financial-settlements', 'section2' => 'international-wealth-and-estate-planning'];
+$data = ['section1' => 'financial-settlements', 'section2' => 'foreign-bank-accounts-assets-abroad'];
 ?>
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
-    <?php $this->load->view('layout/home-banner', ["banner_path"=>"./wp-content/uploads/2024/06/Divorce-Solicitors-Lawyers5.jpg", "header_name" => "International Wealth & Estate Planning"]); ?>
+    <?php $this->load->view('layout/home-banner', ["banner_path"=>"./wp-content/uploads/2024/06/Divorce-Solicitors-Lawyers5.jpg", "header_name" => "Foreign Bank Accounts & Assets Abroad"]); ?>
     <div class="bg-grey">
       <div class="container">
         <section class="main-content">
@@ -28,7 +28,7 @@ $data = ['section1' => 'financial-settlements', 'section2' => 'international-wea
                           ></span
                         >                                                  
                         <span class="breadcrumb_last" aria-current="page"
-                          >International Wealth & Estate Planning</span
+                          >Foreign Bank Accounts & Assets Abroad</span
                         ></span
                       >
                     </div>
@@ -36,43 +36,35 @@ $data = ['section1' => 'financial-settlements', 'section2' => 'international-wea
                 </div>
                 <div class="container-inner">
                   <div class="entry-content">
-                      <p>
-                        International clients have specialised wealth and estate planning
-                        requirements.
+                    <p>
+                        Foreign bank accounts and assets abroad can present problems in divorce
+                        settlements and these problems have to be considered early on.
                     </p>
                     <p>
-                        Even with excellent financial advisers in place, it is often our overarching
-                        view that is key to executing a durable financial arrangement.
+                        The first problem is how do you find out about them? The English Courts have
+                        extensive powers to order disclosure where there is information to suggest
+                        there is a basis to do so. Often this is ordered at the same time as a
+                        freezing order is made.
                     </p>
                     <p>
-                        England and Wales and the common law jurisdictions (like the US, Canada,
-                        Australia etc) are unusual in that a person’s Will is particularly
-                        important, and depending on circumstances, potentially complex.
+                        The second problem is often how you can enforce a transfer of a foreign
+                        asset? This is where early consideration pays off. Different rules apply
+                        depending on the types of assets. For example the transfer of land titles is
+                        subject to different rules than sharing a foreign pension.
                     </p>
                     <p>
-                        If assets are held in different countries it is vital to consider the limits
-                        of a Will’s effectiveness there.
+                        A further frequent problem concerns whether the asset should be regarded as
+                        matrimonial property. That requires looking at the history of how the asset
+                        came in to existence.
                     </p>
                     <p>
-                        Tax planning is also a vital concern. We draw on the specialised services of
-                        excellent barristers in that area when needed.
+                        Valuation of foreign assets can often be difficult. English law again is
+                        pretty efficient at ordering prompt accurate valuations, but sometimes
+                        locating the right experts to carry them out can be a challenge.
                     </p>
                     <p>
-                        Family arrangements can also benefit from specialist legal advice. If a
-                        couple are estranged but not divorced, there needs to be careful
-                        consideration of inheritance. Sometimes a child may live in a country which
-                        has excessive taxation of incoming wealth.
-                    </p>
-                    <p>
-                        We also handle and advise on disputed inheritances. These often arise where,
-                        sadly, the deceased did not fully consider and carry out an estate planning
-                        exercise.
-                    </p>
-                    <p>
-                        Our knowledge of international problems means that we can identify issues
-                        and co-ordinate advice from other professionals such as accountants, tax
-                        counsel and independent financial advisers to craft a robust and practical
-                        framework for the family’s future wealth preservation.
+                        Henry Brookman has long experience of dealing with all these questions and
+                        would be pleased to help you if your case involves assets abroad.
                     </p>
                     <p>
                     <a class="btn btn-lg" href="#modalAskQuestion" data-modal=""

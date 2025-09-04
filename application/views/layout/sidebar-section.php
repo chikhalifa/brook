@@ -8,7 +8,7 @@
           id="menu-item-4592"
           class="menu-item menu-item-type-post_type menu-item-object-page <?= ($section1 == 'divorce') ? 'current-menu-item' : '' ?> page_item page-item-16 current_page_item menu-item-has-children menu-item-4592"
         >
-          <a href="<?= base_url('family-solicitors'); ?>" aria-current="page"
+          <a href="<?= base_url('family-solicitor'); ?>" aria-current="page"
             >Divorce &#038; No-Fault Divorce</a
           >
           <ul class="sub-menu">
@@ -188,10 +188,150 @@
           </ul>
         </li>
         <li
+          id="menu-item-4594"
+          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4594  <?= ($section1 == 'childrens-issues') ? 'current-menu-item' : '' ?>"
+        >
+          <a href="<?= base_url('childrens-issues')?>">Children’s Issues</a>
+          <ul class="sub-menu">
+            <li
+              id="menu-item-4616"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4616 <?= ($section2 == 'fathers-and-mothers-rights') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('fathers-and-mothers-rights')?>"
+                >Fathers’ &#038; Mothers’ Rights</a
+              >
+            </li>
+            <li
+              id="menu-item-4615"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4615 <?= ($section2 == 'grandparents-rights') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('grandparents-rights')?>"
+                >Grandparents’ Rights</a
+              >
+            </li>
+            <li
+              id="menu-item-5370"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5370 <?= ($section2 == 'parental-abduction-within-uk') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('parental-abduction-within-uk')?>"
+                >Parental Abduction within the UK</a
+              >
+            </li>
+            <li
+              id="menu-item-4617"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4617 <?= ($section2 == 'international-abduction') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('international-abduction')?>"
+                >International Abduction</a
+              >
+            </li>
+            <li
+              id="menu-item-5371"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5371 <?= ($section2 == 'leave-remove') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('leave-remove')?>">Leave to Remove</a>
+            </li>
+            <li
+              id="menu-item-4639"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4639 <?= ($section2 == 'surrogacy') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('surrogacy')?>">Surrogacy</a>
+            </li>
+          </ul>
+        </li>
+        <li
+          id="menu-item-4595"
+          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4595 <?= ($section1 == 'financial-settlements') ? 'current-menu-item' : '' ?>"
+        >
+          <a href="<?= base_url('financial-settlements')?>">Financial Settlements</a>
+          <ul class="sub-menu">
+            <li
+              id="menu-item-4620"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4620 <?= ($section2 == 'spousal-maintenance') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('spousal-maintenance')?>"
+                >Spousal Maintenance</a
+              >
+            </li>
+            <li
+              id="menu-item-5360"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5360 <?= ($section2 == 'financial-dispute-resolution') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('financial-dispute-resolution')?>"
+                >Financial Dispute Resolution</a
+              >
+            </li>
+            <li
+              id="menu-item-4621"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4621 <?= ($section2 == 'city-professionals-and-their-spouses') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('city-professionals-and-their-spouses') ?>"
+                >City Professionals &#038; Their Spouses</a
+              >
+            </li>
+            <li
+              id="menu-item-5362"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5362 <?= ($section2 == 'trusts') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('trusts')?>">Trusts</a>
+            </li>
+            <li
+              id="menu-item-5361"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5361 <?= ($section2 == 'offshore-trusts-divorce') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('offshore-trusts-divorce')?>"
+                >Offshore Trusts</a
+              >
+            </li>
+            <li
+              id="menu-item-5357"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5357 <?= ($section2 == 'hidden-assets') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('hidden-assets')?>"
+                >Hidden Assets</a
+              >
+            </li>
+            <li
+              id="menu-item-4622"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4622 <?= ($section2 == 'international-wealth-and-estate-planning') ? 'current-menu-item' : '' ?>"
+            >
+              <a
+                href="<?= base_url('international-wealth-and-estate-planning')?>"
+                >International Wealth &#038; Estate Planning</a
+              >
+            </li>
+            <li
+              id="menu-item-5358"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5358 <?= ($section2 == 'salaries-bonuses-assets') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('salaries-bonuses-assets')?>"
+                >Salaries, Bonuses &#038; Shares</a
+              >
+            </li>
+            <li
+              id="menu-item-5359"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5359 <?= ($section2 == 'international-property') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('international-property')?>"
+                >International Property</a
+              >
+            </li>
+            <li
+              id="menu-item-5363"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5363 <?= ($section2 == 'foreign-bank-accounts-assets-abroad') ? 'current-menu-item' : '' ?>"
+            >
+              <a
+                href="<?= base_url('foreign-bank-accounts-assets-abroad')?>"
+                >Foreign Bank Accounts &#038; Assets Abroad</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li
           id="menu-item-4619"
           class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4619 <?= ($section1 == 'other-services') ? 'current-menu-item' : '' ?>"
         >
-          <a href="#">Other Services</a>
+          <a href="#">Other Services</a>          
           <ul class="sub-menu">
             <li
               id="menu-item-4596"
@@ -230,136 +370,6 @@
           </ul>
         </li>
         <li
-          id="menu-item-4595"
-          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4595"
-        >
-          <a href="<?= base_url('financial-settlements')?>">Financial Settlements</a>
-          <ul class="sub-menu">
-            <li
-              id="menu-item-4620"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4620"
-            >
-              <a href="<?= base_url('spousal-maintenance')?>"
-                >Spousal Maintenance</a
-              >
-            </li>
-            <li
-              id="menu-item-5360"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5360"
-            >
-              <a href="<?= base_url('financial-dispute-resolution')?>"
-                >Financial Dispute Resolution</a
-              >
-            </li>
-            <li
-              id="menu-item-4621"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4621"
-            >
-              <a href="london-clients/city-professionals-and-their-spouses')?>"
-                >City Professionals &#038; Their Spouses</a
-              >
-            </li>
-            <li
-              id="menu-item-5362"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5362"
-            >
-              <a href="<?= base_url('trusts')?>">Trusts</a>
-            </li>
-            <li
-              id="menu-item-5361"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5361"
-            >
-              <a href="<?= base_url('offshore-trusts-divorce')?>"
-                >Offshore Trusts</a
-              >
-            </li>
-            <li
-              id="menu-item-5357"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5357"
-            >
-              <a href="<?= base_url('hidden-assets')?>"
-                >Hidden Assets</a
-              >
-            </li>
-            <li
-              id="menu-item-4622"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4622"
-            >
-              <a
-                href="<?= base_url('international-wealth-and-estate-planning')?>"
-                >International Wealth &#038; Estate Planning</a
-              >
-            </li>
-            <li
-              id="menu-item-5358"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5358"
-            >
-              <a href="<?= base_url('salaries-bonuses-assets')?>"
-                >Salaries, Bonuses &#038; Shares</a
-              >
-            </li>
-            <li
-              id="menu-item-5359"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5359"
-            >
-              <a href="<?= base_url('international-property')?>"
-                >International Property</a
-              >
-            </li>
-            <li
-              id="menu-item-5363"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5363"
-            >
-              <a
-                href="<?= base_url('foreign-bank-accounts-assets-abroad')?>"
-                >Foreign Bank Accounts &#038; Assets Abroad</a
-              >
-            </li>
-          </ul>
-        </li>
-        <li
-          id="menu-item-4619"
-          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4619"
-        >
-          <a href="#">Other Services</a>
-          <ul class="sub-menu">
-            <li
-              id="menu-item-4596"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4596"
-            >
-              <a href="<?= base_url('prenuptial-agreements')?>">Pre-nuptial Agreements</a>
-            </li>
-            <li
-              id="menu-item-5379"
-              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5379"
-            >
-              <a href="<?= base_url('post-nuptial-agreements')?>"
-                >Post-nuptial Agreements</a
-              >
-            </li>
-            <li
-              id="menu-item-4597"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4597"
-            >
-              <a href="<?= base_url('pensions')?>">Pensions &#038; Divorce</a>
-            </li>
-            <li
-              id="menu-item-4598"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4598"
-            >
-              <a href="<?= base_url('inheritance')?>">Inheritance</a>
-            </li>
-            <li
-              id="menu-item-4642"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4642"
-            >
-              <a href="<?= base_url('urdu-hindi')?>"
-                >بروک مین عائلی قانون</a
-              >
-            </li>
-          </ul>
-        </li>
-        <li
           id="menu-item-4599"
           class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4599"
         >
@@ -385,7 +395,7 @@
               id="menu-item-4625"
               class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4625"
             >
-              <a href="<?= base_url('city-professionals-and-their-spouses')?>"
+              <a href="<?= base_url('city-professionals-and-their-spouses') ?>"
                 >City Professionals &#038; Their Spouses</a
               >
             </li>

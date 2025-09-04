@@ -127,11 +127,14 @@ $route['surrogacy'] = 'services/surrogacy';
 $route['financial-settlements'] = 'services/financial_settlements';
 $route['financial-dispute-resolution'] = 'services/financial_dispute_resolution';
 $route['spousal-maintenance'] = 'services/spousal_maintenance';
+$route['city-professionals-and-their-spouses'] = 'services/city_professionals_and_spouses';
 $route['trusts'] = 'services/trusts';
 $route['hidden-assets'] = 'services/hidden_assets';
 $route['salaries-bonuses-assets'] = 'services/salaries_bonuses_assets';
 $route['international-wealth-and-estate-planning'] = 'services/international_wealth_and_estate_planning';
 $route['offshore-trusts-divorce'] = 'services/offshore_trusts_divorce';
+$route['international-property'] = 'services/international_property';
+$route['foreign-bank-accounts-assets-abroad'] = 'services/foreign_bank_accounts_assets_abroad';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
