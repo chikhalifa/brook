@@ -367,9 +367,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <input
               type="submit"
               id="gform_submit_button_11"
-              class="gform_button button"
-              onclick="gform.submission.handleButtonClick(this);"
-              data-submission-type="submit"
+              class="gform_button button"              
               value="Send Now"
             />            
           </div>
