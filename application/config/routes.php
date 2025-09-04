@@ -93,11 +93,11 @@ $route['legal-advice'] = 'services/legal_advice';
 $route['unreasonable-behaviour'] = 'services/unreasonable_behaviour';
 $route['finding-a-solicitor'] = 'services/finding_a_solicitor';
 
-
 // Other services
 $route['prenuptial-agreements'] = 'services/prenuptial_agreements';
 $route['post-nuptial-agreements'] = 'services/post_nuptial_agreements';
 $route['pensions'] = 'services/pensions';
+$route['pension-freedom'] = 'services/pension_freedom';
 $route['inheritance'] = 'services/inheritance';
 $route['london-map'] = 'services/london_map';
 $route['urdu-hindi'] = 'services/urdu_hindi';

@@ -148,6 +148,12 @@ class Services extends CI_Controller {
 		$this->load->view('family-solicitors/pensions');
 		$this->load->view('layout/footer');
 	}	
+	public function pension_freedom ()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('family-solicitors/pension-freedom');
+		$this->load->view('layout/footer');
+	}	
 	public function inheritance()
 	{
 		$this->load->view('layout/header');

@@ -1381,12 +1381,12 @@ $controller_class = $CI->router->class;
 																		>Inheritance</a
 																	>
 																</li>
-																<li
+																<!-- <li
 																	id="menu-item-6864"
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6864"
 																>
 																	<a href="<?= base_url('london-map'); ?>">London Clients</a>
-																</li>
+																</li> -->
 																<li
 																	id="menu-item-939"
 																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-939"

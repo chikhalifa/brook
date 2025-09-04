@@ -188,54 +188,44 @@
           </ul>
         </li>
         <li
-          id="menu-item-4594"
-          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4594  <?= ($section1 == 'childrens-issues') ? 'current-menu-item' : '' ?>"
+          id="menu-item-4619"
+          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4619 <?= ($section1 == 'other-services') ? 'current-menu-item' : '' ?>"
         >
-          <a href="<?= base_url('childrens-issues')?>">Children’s Issues</a>
+          <a href="#">Other Services</a>
           <ul class="sub-menu">
             <li
-              id="menu-item-4616"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4616 <?= ($section2 == 'fathers-and-mothers-rights') ? 'current-menu-item' : '' ?>"
+              id="menu-item-4596"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4596 <?= ($section2 == 'prenuptial-agreements') ? 'current-menu-item' : '' ?>"
             >
-              <a href="<?= base_url('fathers-and-mothers-rights')?>"
-                >Fathers’ &#038; Mothers’ Rights</a
+              <a href="<?= base_url('prenuptial-agreements')?>">Pre-nuptial Agreements</a>
+            </li>
+            <li
+              id="menu-item-5379"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5379 <?= ($section2 == 'post-nuptial-agreements') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('post-nuptial-agreements')?>"
+                >Post-nuptial Agreements</a
               >
             </li>
             <li
-              id="menu-item-4615"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4615 <?= ($section2 == 'grandparents-rights') ? 'current-menu-item' : '' ?>"
+              id="menu-item-4597"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4597 <?= ($section2 == 'pensions') ? 'current-menu-item' : '' ?>"
             >
-              <a href="<?= base_url('grandparents-rights')?>"
-                >Grandparents’ Rights</a
+              <a href="<?= base_url('pensions')?>">Pensions &#038; Divorce</a>
+            </li>
+            <li
+              id="menu-item-4598"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4598 <?= ($section2 == 'inheritance') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('inheritance')?>">Inheritance</a>
+            </li>
+            <li
+              id="menu-item-4642"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4642 <?= ($section2 == 'urdu-hindi') ? 'current-menu-item' : '' ?>"
+            >
+              <a href="<?= base_url('urdu-hindi')?>"
+                >بروک مین عائلی قانون</a
               >
-            </li>
-            <li
-              id="menu-item-5370"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5370 <?= ($section2 == 'parental-abduction-within-uk') ? 'current-menu-item' : '' ?>"
-            >
-              <a href="<?= base_url('parental-abduction-within-uk')?>"
-                >Parental Abduction within the UK</a
-              >
-            </li>
-            <li
-              id="menu-item-4617"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4617 <?= ($section2 == 'international-abduction') ? 'current-menu-item' : '' ?>"
-            >
-              <a href="<?= base_url('international-abduction')?>"
-                >International Abduction</a
-              >
-            </li>
-            <li
-              id="menu-item-5371"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5371 <?= ($section2 == 'leave-remove') ? 'current-menu-item' : '' ?>"
-            >
-              <a href="<?= base_url('leave-remove')?>">Leave to Remove</a>
-            </li>
-            <li
-              id="menu-item-4639"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4639 <?= ($section2 == 'surrogacy') ? 'current-menu-item' : '' ?>"
-            >
-              <a href="<?= base_url('surrogacy')?>">Surrogacy</a>
             </li>
           </ul>
         </li>
