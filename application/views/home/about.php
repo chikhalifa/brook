@@ -213,173 +213,129 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 													tabindex="-1"
 												></div>
 												<form
-													method="post"
-													enctype="multipart/form-data"
-													target="gform_ajax_frame_14"
-													id="gform_14"
-													action="#"
+												method="post"
+												enctype="multipart/form-data"
+												method="POST"
+												action="<?= base_url ('home/ask_question_form') ?>"
 												>
-													<div class="gform-body gform_body">
-														<ul
-															id="gform_fields_14"
-															class="gform_fields top_label form_sublabel_below description_below validation_below"
+												<div class="gform-body gform_body">
+													<ul
+													id="gform_fields_14"
+													class="gform_fields top_label form_sublabel_below description_below validation_below"
+													>
+													<li
+														id="field_14_11"
+														class="gfield gfield--type-text infield-label gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
+													>
+														<label class="gfield_label gform-field-label" for="input_14_11"
+														>Your Name<span class="gfield_required"
+															><span class="gfield_required gfield_required_asterisk"
+															>*</span
+															></span
+														></label
 														>
-															<li
-																id="field_14_11"
-																class="gfield gfield--type-text infield-label gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
-															>
-																<label
-																	class="gfield_label gform-field-label"
-																	for="input_14_11"
-																	>Your Name<span class="gfield_required"
-																		><span
-																			class="gfield_required gfield_required_asterisk"
-																			>*</span
-																		></span
-																	></label
-																>
-																<div
-																	class="ginput_container ginput_container_text"
-																>
-																	<input
-																		name="input_11"
-																		id="input_14_11"
-																		type="text"
-																		value=""
-																		class="medium"
-																		aria-required="true"
-																		aria-invalid="false"
-																	/>
-																</div>
-															</li>
-															<li
-																id="field_14_2"
-																class="gfield gfield--type-email infield-label gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
-															>
-																<label
-																	class="gfield_label gform-field-label"
-																	for="input_14_2"
-																	>Email Address<span class="gfield_required"
-																		><span
-																			class="gfield_required gfield_required_asterisk"
-																			>*</span
-																		></span
-																	></label
-																>
-																<div
-																	class="ginput_container ginput_container_email"
-																>
-																	<input
-																		name="input_2"
-																		id="input_14_2"
-																		type="email"
-																		value=""
-																		class="medium"
-																		aria-required="true"
-																		aria-invalid="false"
-																	/>
-																</div>
-															</li>
-															<li
-																id="field_14_6"
-																class="gfield gfield--type-textarea gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"
-															>
-																<label
-																	class="gfield_label gform-field-label"
-																	for="input_14_6"
-																	>Your Question or Enquiry<span
-																		class="gfield_required"
-																		><span
-																			class="gfield_required gfield_required_asterisk"
-																			>*</span
-																		></span
-																	></label
-																>
-																<div
-																	class="ginput_container ginput_container_textarea"
-																>
-																	<textarea
-																		name="input_6"
-																		id="input_14_6"
-																		class="textarea medium"
-																		placeholder="Your Question or Enquiry*"
-																		aria-required="true"
-																		aria-invalid="false"
-																		rows="10"
-																		cols="50"
-																	></textarea>
-																</div>
-															</li>
-															<li
-																id="field_14_3"
-																class="gfield gfield--type-phone infield-label show-on-active field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
-															>
-																<label
-																	class="gfield_label gform-field-label"
-																	for="input_14_3"
-																	>Phone Number (Optional)</label
-																>
-																<div
-																	class="ginput_container ginput_container_phone"
-																>
-																	<input
-																		name="input_3"
-																		id="input_14_3"
-																		type="tel"
-																		value=""
-																		class="medium"
-																		aria-invalid="false"
-																	/>
-																</div>
-															</li>
-															<li
-																id="field_14_13"
-																class="gfield gfield--type-text gfield--width-full infield-label show-on-active gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
-															>
-																<label
-																	class="gfield_label gform-field-label"
-																	for="input_14_13"
-																	>Your Location (e.g. Town/City)<span
-																		class="gfield_required"
-																		><span
-																			class="gfield_required gfield_required_asterisk"
-																			>*</span
-																		></span
-																	></label
-																>
-																<div
-																	class="ginput_container ginput_container_text"
-																>
-																	<input
-																		name="input_13"
-																		id="input_14_13"
-																		type="text"
-																		value=""
-																		class="medium"
-																		aria-required="true"
-																		aria-invalid="false"
-																	/>
-																</div>
-															</li>
-															<li
-																id="field_14_12"
-																class="gfield gfield--type-html hide-on-active gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
-															>
-																<button type="button" class="btn btn-lg">
-																	Ask Us Now
-																</button>
-															</li>
-														</ul>
-													</div>
-													<div class="gform-footer gform_footer top_label">
+														<div class="ginput_container ginput_container_text">
 														<input
-															type="submit"
-															id="gform_submit_button_14"
-															class="gform_button button"
-															data-submission-type="submit"
-															value="Send Now"
+															name="name"
+															type="text"
+															value=""
+															class="medium"            
 														/>
-													</div>
+														</div>
+													</li>
+													<li
+														id="field_14_2"
+														class="gfield gfield--type-email infield-label gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
+													>
+														<label class="gfield_label gform-field-label" for="input_14_2"
+														>Email Address<span class="gfield_required"
+															><span class="gfield_required gfield_required_asterisk"
+															>*</span
+															></span
+														></label
+														>
+														<div class="ginput_container ginput_container_email">
+														<input
+															name="email"            
+															type="email"
+															value=""
+															class="medium"            
+														/>
+														</div>
+													</li>
+													<li
+														id="field_14_6"
+														class="gfield gfield--type-textarea gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"
+													>
+														<label class="gfield_label gform-field-label" for="input_14_6"
+														>Your Question or Enquiry<span class="gfield_required"
+															><span class="gfield_required gfield_required_asterisk"
+															>*</span
+															></span
+														></label
+														>
+														<div class="ginput_container ginput_container_textarea">
+														<textarea
+															name="comment"            
+															class="textarea medium"
+															placeholder="Your Question or Enquiry*"            
+															rows="10"
+															cols="50"
+														></textarea>
+														</div>
+													</li>
+													<li
+														id="field_14_3"
+														class="gfield gfield--type-phone infield-label show-on-active field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
+													>
+														<label class="gfield_label gform-field-label" for="input_14_3"
+														>Phone Number (Optional)</label
+														>
+														<div class="ginput_container ginput_container_phone">
+														<input
+															name="phone"
+															type="tel"
+															value=""
+															class="medium"            
+														/>
+														</div>
+													</li>
+													<li
+														id="field_14_13"
+														class="gfield gfield--type-text gfield--width-full infield-label show-on-active gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
+													>
+														<label class="gfield_label gform-field-label" for="input_14_13"
+														>Your Location (e.g. Town/City)<span class="gfield_required"
+															><span class="gfield_required gfield_required_asterisk"
+															>*</span
+															></span
+														></label
+														>
+														<div class="ginput_container ginput_container_text">
+														<input
+															name="location"            
+															type="text"
+															value=""
+															class="medium"            
+														/>
+														</div>
+													</li>
+													<li
+														id="field_14_12"
+														class="gfield gfield--type-html hide-on-active gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
+													>
+														<button type="button" class="btn btn-lg">Ask Us Now</button>
+													</li>
+													</ul>
+												</div>
+												<div class="gform-footer gform_footer top_label">
+													<input
+													type="submit"
+													id="gform_submit_button_14"
+													class="gform_button button"      
+													value="Send Now"
+													/>
+												</div>
 												</form>
 											</div>											
 										</div>
