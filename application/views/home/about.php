@@ -120,7 +120,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 										</p>
 										<p>
 											Legal 500 recently recommended members of the family team
-											for their exemplary work, with Philip Morton, Natasha
+											for their exemplary work, with Josh McPherson, Natasha
 											Slabas, Mark Rennie and numeroues others being highlighted
 											as Legal 500 Recommended Lawyers.
 										</p>

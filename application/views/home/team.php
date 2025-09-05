@@ -56,7 +56,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<div class="post">
 										<p class="pre-heading">Partner</p>
 
-										<h3 class="post-title">Philip Morton</h3>
+										<h3 class="post-title">Josh McPherson</h3>
 
 										<div class="post-excerpt">
 											<p>

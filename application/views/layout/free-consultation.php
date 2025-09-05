@@ -136,7 +136,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <figure>
                                     <blockquote>
                                         <p>
-                                            In my initial call, Philip Morton helped me understand
+                                            In my initial call, Josh McPherson helped me understand
                                             the legal framework for separation and divorce in a
                                             really friendly, helpful way. I feel much more
                                             confident that I'm entering this process with the

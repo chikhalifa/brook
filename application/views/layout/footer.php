@@ -81,7 +81,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
           </figcaption>
           <blockquote>
             <p>
-              I was referred to Philip Morton by a colleague who has worked with
+              I was referred to Josh McPherson by a colleague who has worked with
               the firm professionally for many years and also had personal
               dealings with Phil. I am so grateful for the assistance that Phil
               provided to my partner during a recent matrimonial legal matter.
