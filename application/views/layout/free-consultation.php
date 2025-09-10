@@ -65,7 +65,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                     <blockquote>
                                         <p>
                                             I was very impressed with the initial free Teams
-                                            consultation I had with Philip. He was entirely
+                                            consultation I had with Josh. He was entirely
                                             focused on my particular circumstances and gave me
                                             information in a friendly and professional manner. Our
                                             conversation was concisely followed up in writing.
@@ -82,10 +82,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <figure>
                                     <blockquote>
                                         <p>
-                                            I recently had the pleasure of speaking with Philip
+                                            I recently had the pleasure of speaking with Josh
                                             for a free consultation, and I couldn't be more
                                             impressed with the service I received. From the start,
-                                            it was evident that Philip genuinely cared about my
+                                            it was evident that Josh genuinely cared about my
                                             situation. The consultation was thorough and far
                                             exceeded my expectations in terms of length and depth.
                                         </p>

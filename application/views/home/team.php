@@ -60,8 +60,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 										<div class="post-excerpt">
 											<p>
-												Philip is a Partner and Group Head of the Dispute
-												Resolution London Family team. Philip acts in all areas
+												Josh is a Partner and Group Head of the Dispute
+												Resolution London Family team. Josh acts in all areas
 												of family law and&hellip;
 												<span class="post-read-more">Read More</span>
 											</p>
@@ -69,20 +69,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 										<div class="post-content">
 											<p>
-												Philip is a Partner and Group Head of the Dispute
-												Resolution London Family team. Philip acts in all areas
+												Josh is a Partner and Group Head of the Dispute
+												Resolution London Family team. Josh acts in all areas
 												of family law and advises clients on the most efficient
 												and effective way of settling financial and children
 												disputes following the breakdown of a relationship.
-												Philip’s particular focus is on high value domestic and
+												Josh’s particular focus is on high value domestic and
 												international financial proceedings where there are
 												complex corporate or trust assets. His practice includes
 												advising on protecting family wealth through pre- and
-												post-nuptial agreements. Philip is recommended by The
+												post-nuptial agreements. Josh is recommended by The
 												Legal 500.
 											</p>
 											<p>
-												In addition to his family practice, Philip continues to
+												In addition to his family practice, Josh continues to
 												advise Private Clients in disputes including:
 												professional claims against solicitors for negligence in
 												family proceedings; domestic and international fraud
@@ -90,7 +90,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 												defamation.
 											</p>
 											<p>
-												Philip has lectured to the Institute of Directors and
+												Josh has lectured to the Institute of Directors and
 												various business leaders on the protection of commercial
 												and private assets in the event of divorce.
 											</p>

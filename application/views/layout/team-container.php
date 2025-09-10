@@ -37,7 +37,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <h3 class="post-title">Josh McPherson</h3>
 
                             <p>
-                                Recommended by The Legal 500, Philip is an expert in all
+                                Recommended by The Legal 500, Josh is an expert in all
                                 areas of family law, including domestic and international
                                 financial disputes, fraud and commercial dispute resolution.
                             </p>
@@ -47,7 +47,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                     href="#modalAskQuestion"
                                     class="link-secondary"
                                     data-modal
-                                    >Email Philip</a
+                                    >Email Josh</a
                                 >
                             </div>
                         </div>
